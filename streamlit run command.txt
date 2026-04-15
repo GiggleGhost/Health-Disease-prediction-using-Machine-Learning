@@ -1,0 +1,1 @@
+streamlit run "C:\Users\acer\Desktop\Multiple Disease Predication System\multiple disease pred.py"

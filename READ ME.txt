@@ -1,0 +1,37 @@
+# Multiple Disease Prediction System 🧑‍⚕️
+
+A **Streamlit-based web application** that uses pre-trained Machine Learning models to predict three major diseases:
+
+- **Diabetes**
+- **Heart Disease**
+- **Parkinson's Disease**
+
+The app provides a clean, user-friendly interface with a sidebar navigation for quick switching between prediction modules.
+
+---
+
+## ✨ Features
+
+- Modern, responsive Streamlit UI with `streamlit-option-menu`
+- Improved Diabetes prediction page (uses `number_input` + Pandas DataFrame for accurate input handling)
+- Classic input fields for Heart Disease and Parkinson's (as per original models)
+- Instant prediction results with clear success messages
+- Pre-trained models loaded via `pickle` (no retraining required at runtime)
+- Fully functional on local machine with a single command
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology              | Purpose                          |
+|-------------------------|----------------------------------|
+| **Python**              | Core language                    |
+| **Streamlit**           | Web UI & deployment              |
+| **Pandas**              | Input handling (Diabetes)        |
+| **scikit-learn**        | Underlying ML models             |
+| **pickle**              | Model serialization (.sav files) |
+| **streamlit-option-menu**| Sidebar navigation               |
+
+---
+
+## 📁 Project Structure
